@@ -17,18 +17,18 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  favorite_candy_flavors = ["green apple", "watermelon", "strawberry", "orange"]
-  favorite_candy_flavors.pop
+  array = ["wow", "I", "am", "really", "learning"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  favorite_candy_flavors = ["green apple", "watermelon", "strawberry", "orange"]
-  favorite_candy_flavors.shift
+  array = ["wow", "I", "am", "really", "learning"]
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  favorite_candy_flavors = ["green apple", "watermelon", "strawberry", "orange"]
-  favorite_candy_flavors[3]
+  array = ["wow", "I", "am", "really", "learning"]
+  array[3]
 end
 
 def retrieve_first_element_from_array(array)
