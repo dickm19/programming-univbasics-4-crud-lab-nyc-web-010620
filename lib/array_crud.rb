@@ -8,7 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   favorite_candy_flavors = ["green apple", "watermelon", "strawberry", "orange"]
-  favorite_candy_flavors << "arrays!"
+  element = "lemon"
+  favorite_candy_flavors << element
 end
 
 def add_element_to_start_of_array(array, element)
