@@ -6,6 +6,7 @@ def create_an_array
   array = ["Wow", "I", "am", "really"]
 end
 
+##when I made up my own elements the tests kept failing so I based it on the failures and array_crud_spec.rb
 def add_element_to_end_of_array(array, element)
   array = ["wow", "I", "am", "really", "learning"]
   array << "arrays!"
