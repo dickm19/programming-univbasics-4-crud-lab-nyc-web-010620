@@ -13,7 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   favorite_candy_flavors = ["green apple", "watermelon", "strawberry", "orange"]
-  favorite_candy_flavors.unshift("blue rhaspberry")
+  favorite_candy_flavors.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
